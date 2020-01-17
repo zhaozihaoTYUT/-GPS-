@@ -1,7 +1,7 @@
 <?php
-$dbhost = '123.57.69.240';  // mysql服务器主机地址
-$dbuser = 'root';            // mysql用户名
-$dbpass = 'rootmysql';          // mysql用户名密码
+$dbhost = '';  // mysql服务器主机地址
+$dbuser = '';            // mysql用户名
+$dbpass = '';          // mysql用户名密码
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass);
 
 class coordinate{
